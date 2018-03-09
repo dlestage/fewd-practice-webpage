@@ -1,0 +1,18 @@
+body {
+  width: 80em;
+  margin 2em auto;
+}
+
+header {
+  margin: 2em auto;
+  width: 70em;
+  border: 5px solid blue;
+  display: flex;
+  justify-content: space-between;
+}
+nav > ul {
+  display: flex;
+  width: 350px;
+  justify-content: space-between;
+  list-style: none;
+}
