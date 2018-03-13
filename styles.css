@@ -6,7 +6,6 @@ body {
 header {
   margin: 2em auto;
   width: 60em;
-  border: 5px solid blue;
   display: flex;
   justify-content: space-between;
 }
@@ -53,9 +52,25 @@ h1 {
 }
 main {
   margin: 2em auto;
+  line-height: 1.5;
   width: 60em;
-  border: 5px solid blue;
   display: flex;
-  flex-direction: row;
+  align-items: baseline;
   justify-content: space-between;
+}
+main div {
+  display; flex;
+  flex-flow: column wrap;
+  width: 17em;
+  align-items: center;
+}
+main img {
+  height: 90px;
+  display: flex;
+  justify-content: center;
+}
+h2 {
+  font-size: 2em;
+  font-weight: bold;
+  font-family: "Josefin Slab", Arial, serif;
 }
