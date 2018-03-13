@@ -51,3 +51,11 @@ h1 {
   font-weight: bold;
   font-family: "Josefin Slab", Arial, serif;
 }
+main {
+  margin: 2em auto;
+  width: 60em;
+  border: 5px solid blue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
